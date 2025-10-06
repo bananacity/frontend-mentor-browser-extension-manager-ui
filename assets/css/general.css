@@ -4,6 +4,8 @@
   --color-neutral-800: hsl(226, 25%, 17%);
   --color-neutral-700: hsl(225, 23%, 24%);
   --color-neutral-600: hsl(226, 11%, 37%);
+  --color-neutral-500: hsl(226, 11%, 50%);
+  --color-neutral-400: hsl(0, 0%, 70%);
   --color-neutral-300: hsl(0, 0%, 78%);
   --color-neutral-200: hsl(217, 61%, 90%);
   --color-neutral-100: hsl(0, 0%, 93%);
@@ -240,6 +242,7 @@ body {
   --btn-remove-shadow: inset 0 0 0 1px var(--color-neutral-300);
 
   --toggle-bg: var(--color-neutral-300);
+  --toggle-bg-hover: var(--color-neutral-400);
   --toggle-bg-checked: var(--color-red-700);
   --toggle-bg-checked-hover: var(--color-red-500);
   --toggle-handle-bg: var(--color-neutral-0);
@@ -280,6 +283,7 @@ body {
   --btn-remove-shadow: inset 0 0 0 1px var(--color-neutral-600);
 
   --toggle-bg: var(--color-neutral-600);
+  --toggle-bg-hover: var(--color-neutral-500);
   --toggle-bg-checked: var(--color-red-500);
   --toggle-bg-checked-hover: var(--color-red-400);
   --toggle-handle-bg: var(--color-neutral-0);
