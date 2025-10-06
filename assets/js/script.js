@@ -85,10 +85,10 @@ function renderExtension(extension, animateDom = true) {
 
               <input
                 type="checkbox"
-                name=""
-                id=""
                 class="toggle"
-                aria-label=""
+                aria-label="${extension.isActive ? 'Deactivate' : 'Activate'} ${
+    extension.name
+  } extension"
                 ${extension.isActive ? 'checked' : ''}
               />
             </div>`;
