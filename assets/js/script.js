@@ -77,7 +77,7 @@ function renderExtension(extension, animateDom = true) {
 
             <div class="extension-controls">
               <button
-                aria-label="Remove extension"
+                aria-label="Remove ${extension.name} extension"
                 class="btn-remove text-preset-6"
               >
                 Remove
