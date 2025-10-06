@@ -62,6 +62,8 @@ function renderExtension(extension, animateDom = true) {
               <img
                 src="${extension.logo}"
                 alt="${extension.name} Logo"
+                width="60"
+                height="60"
                 class="extension-logo"
                 draggable="false"
               />
