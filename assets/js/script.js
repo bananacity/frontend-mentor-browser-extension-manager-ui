@@ -8,7 +8,7 @@ let activeExtensions;
 let inactiveExtensions;
 
 async function getExtensions() {
-  const url = '../../data.json';
+  const url = './data.json';
 
   try {
     const response = await fetch(url);
