@@ -99,8 +99,8 @@ function renderExtension(extension, animateDom = true) {
   if (animateDom) {
     animate(
       newExtension,
-      { opacity: [0, 1], transform: ['scale(0.95)', 'scale(1)'] },
-      { duration: 0.3, easing: 'ease-in-out' }
+      { transform: ['scale(0.95)', 'scale(1)'] },
+      { duration: 0.4, easing: 'ease-in' }
     );
   }
 }
