@@ -1,5 +1,4 @@
 const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-
 const themeBtn = document.querySelector('.theme-toggle');
 
 let selectedTheme;
