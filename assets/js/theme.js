@@ -4,13 +4,13 @@ const themeBtn = document.querySelector('.theme-toggle');
 
 let selectedTheme;
 
-function handleThemeChange(e) {
+function handleThemeChange(mediaQuery) {
   const savedTheme = localStorage.getItem('theme');
 
   if (savedTheme) {
     selectedTheme = savedTheme;
   } else {
-    selectedTheme = e.matches ? 'dark' : 'light';
+    selectedTheme = mediaQuery.matches ? 'dark' : 'light';
   }
 
   document.documentElement.setAttribute('data-theme', selectedTheme);
@@ -27,7 +27,6 @@ function toggleTheme() {
 }
 
 mediaQuery.addEventListener('change', handleThemeChange);
+themeBtn.addEventListener('click', toggleTheme);
 
 handleThemeChange(mediaQuery);
-
-themeBtn.addEventListener('click', toggleTheme);
